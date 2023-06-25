@@ -1,0 +1,708 @@
+.five-block-p, .two-block .two-block-div .two-block-div-fl .two-block-div-p p, .infor .div-infor-language .language a, .infor .div-infor-language .language, .header-div hr {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.five-block-content .button-a, .four-block-a, .four-block, .infor .div-infor-old .old {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.burger {
+    display: none;
+}
+
+.one-block {
+    width: 100%;
+    height: 100vh;
+}
+
+.header-div {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.head-cen {
+    height: 10vh;
+}
+
+.header-ul {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.header-ul li {
+    list-style-type: none;
+    display: inline-block;
+    flex: 1;
+    margin: auto 0;
+}
+
+.header-ul li a {
+    text-decoration: none;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+    font-size: 2.2vw !important;
+}
+
+.header-ul li a:hover {
+    color: #000;
+}
+
+.infor {
+    display: flex;
+    margin-bottom: 3em;
+    height: 18vh;
+}
+
+.infor * {
+    flex: 1;
+}
+
+.infor .div-infor-name {
+    display: grid;
+    align-items: end;
+}
+
+.infor .div-infor-name .name {
+    text-align: left;
+    font-size: 6vw;
+    line-height: 59px;
+    margin: 0;
+    bottom: 3em;
+}
+
+.infor .div-infor-old {
+    display: grid;
+    align-items: end;
+}
+
+.infor .div-infor-old .old {
+    text-align: left;
+    padding-left: 30%;
+    margin: 0;
+}
+
+.infor .div-infor-language {
+    display: grid;
+    align-items: end;
+    transition: 0.5s !important;
+}
+
+.infor .div-infor-language .language {
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+    margin: 0;
+    position: relative;
+}
+
+.infor .div-infor-language .language a {
+    text-decoration: none;
+}
+
+.infor .div-infor-language .language a span {
+    color: #000;
+}
+
+.img-div {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+}
+
+.img-div .img-img {
+    flex-shrink: 0;
+    background: url("../images/ken.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.five-block-p, .two-block .two-block-div .two-block-div-fl .two-block-div-p p, .header-div hr, .infor .div-infor-language .language, .infor .div-infor-language .language a {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.five-block-content .button-a, .four-block-a, .four-block, .infor .div-infor-old .old {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.two-block-background {
+    background: #F6F6F6;
+    width: 100%;
+    position: relative;
+}
+
+.two-block {
+    display: table;
+    width: 100%;
+}
+
+.two-block .two-block-div {
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+}
+
+.two-block .two-block-div .two-block-div-fl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    margin: 2em 0;
+}
+
+.two-block .two-block-div .two-block-div-fl .two-block-div-h2 .two-block-h2 {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.two-block .two-block-div .two-block-div-fl .two-block-div-p p {
+    color: #000;
+}
+
+.two-block .two-block-div .two-block-div-fl .two-block-div-p p:not(:first-child) {
+    padding-top: 2em;
+}
+
+.five-block-p, .header-div hr, .infor .div-infor-language .language, .infor .div-infor-language .language a, .two-block .two-block-div .two-block-div-fl .two-block-div-p p {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.five-block-content .button-a, .four-block-a, .four-block, .infor .div-infor-old .old {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.three-block {
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.three-block-p {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.three-block-div {
+    display: table;
+    font-family: "Gilroy-Bold", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    margin: 3em 0;
+    text-align: center;
+}
+
+.three-block-div * {
+    flex: 1;
+}
+
+.three-block-head {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.three-block-head .three-block-head-cen {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.three-block-head .three-block-head-cen .three-block-h2 {
+    margin-bottom: 3em;
+}
+
+.three-block-skills {
+    margin: 1.5em 0;
+}
+
+.three-block-skills-div {
+    font-family: "Gilroy-Bold", sans-serif;
+    display: flex;
+}
+
+.three-block-skills-div .three-block-skills {
+    text-align: center;
+}
+
+.three-block-skills-div .three-block-skills img {
+    width: 50%;
+}
+
+.three-block-skills-div .three-block-skills .skills-ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.three-block-skills-div .three-block-skills .skills-ul li {
+    display: inline-block;
+}
+
+.three-block-skills-div .three-block-skills .skills-ul li img {
+    width: 60%;
+}
+
+.five-block-p, .header-div hr, .infor .div-infor-language .language, .infor .div-infor-language .language a, .two-block .two-block-div .two-block-div-fl .two-block-div-p p {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.five-block-content .button-a, .four-block-a, .four-block, .infor .div-infor-old .old {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.four-block-background {
+    background: #F6F6F6;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: table;
+}
+
+.four-block {
+    height: 100%;
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
+    margin: 3em 0;
+}
+
+.four-block .four-block-fl {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-self: stretch;
+    height: 100%;
+}
+
+.four-block .four-block-fl .four-block-h2-div {
+    flex: 1;
+    margin: 1em 0;
+}
+
+.four-block .four-block-fl .four-block-h2-div .four-block-h2 {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.four-block .four-block-fl .work {
+    box-sizing: border-box;
+    flex-direction: column;
+    flex: 5;
+    display: flex;
+}
+
+.four-block .four-block-fl .work div {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+    flex: 1;
+}
+
+.four-block .four-block-fl .work div img {
+    width: 100%;
+    flex: 1;
+}
+
+.four-block .four-block-fl .work div a {
+    color: #000;
+    flex: 1;
+}
+
+.four-block-a {
+    padding: 3em 0;
+    box-sizing: border-box;
+}
+
+.four-block-a a {
+    box-sizing: border-box;
+}
+
+.five-block-p, .header-div hr, .infor .div-infor-language .language, .infor .div-infor-language .language a, .two-block .two-block-div .two-block-div-fl .two-block-div-p p {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.five-block-content .button-a, .infor .div-infor-old .old, .four-block, .four-block-a {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.five-block {
+    display: table;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five-block-content .button-a {
+    vertical-align: middle;
+    background: #000;
+    border: none;
+    color: #fff;
+    border-radius: 2.5em;
+    width: 10em;
+    height: 2.5em;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 2.5em !important;
+}
+
+.five-block-head {
+    box-sizing: border-box;
+}
+
+.five-block-head .five-block-head-h2 {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.five-block-head .five-block-head-p {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+    padding: 2em 0;
+    margin: 0;
+}
+
+.five-block-ul-div {
+    display: flex;
+    justify-content: center;
+}
+
+.five-block-ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 7em;
+    margin-bottom: 4.5em;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five-block-ul li {
+    display: inline-block;
+    width: 40%;
+    flex: 1;
+}
+
+.five-block-ul li a img {
+    width: 30%;
+}
+
+.header-div hr, .infor .div-infor-language .language, .infor .div-infor-language .language a, .two-block .two-block-div .two-block-div-fl .two-block-div-p p, .five-block-p {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.infor .div-infor-old .old, .four-block, .four-block-a, .five-block-content .button-a {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 560px) {
+    header {
+        height: 100vh;
+        position: absolute;
+    }
+
+    header .header-div {
+        position: absolute;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        background: #fff;
+        transition: 0.5s;
+        transform: translateX(-100%);
+    }
+
+    header .header-div .head-cen {
+        height: 50%;
+        position: absolute;
+    }
+
+    header .header-div .head-cen .header-ul {
+        opacity: 0;
+    }
+
+    header .header-div .head-cen .header-ul.is-open {
+        opacity: 1;
+        height: 100vh !important;
+        position: absolute;
+        flex-direction: column;
+        width: 70vw !important;
+    }
+
+    header .header-div .head-cen .header-ul.is-open li {
+        display: flex !important;
+        font-weight: bold;
+        width: 100% !important;
+        text-align: left;
+        align-items: center;
+        margin-left: 3em;
+    }
+
+    header .header-div .head-cen .header-ul.is-open li a {
+        font-size: 2em !important;
+        line-height: 42px;
+    }
+
+    header hr {
+        display: none;
+    }
+
+    .div-infor-language {
+        display: none !important;
+        text-align: right !important;
+        width: 10%;
+        position: absolute;
+        bottom: 0;
+        right: 2em;
+        transition: 0.5s;
+    }
+
+    .div-infor-language .language {
+        transition: 0.5s;
+        transform: none !important;
+        display: inline-block !important;
+        font-size: 2em !important;
+        height: 5em !important;
+        margin-bottom: 2em !important;
+    }
+
+    .div-infor-language .language a {
+        font-size: 1em !important;
+    }
+
+    .infor {
+        margin-top: 20%;
+        display: block;
+    }
+
+    .div-infor-old {
+        display: block;
+        padding: 0;
+        padding-top: 1.8em;
+        margin: 0;
+    }
+
+    .div-infor-old .old {
+        margin: 0;
+        display: inline-block;
+        padding-left: 0 !important;
+    }
+
+    .name {
+        font-size: 2.5em !important;
+    }
+
+    .content {
+        width: 85% !important;
+    }
+
+    .img-img {
+        margin: 0 !important;
+    }
+
+    .burger {
+        position: fixed !important;
+        right: 10vw !important;
+        top: 5vh !important;
+        z-index: 5;
+        display: inline-block;
+    }
+
+    .burger p {
+        position: relative;
+        font-size: 200%;
+        font-weight: bold;
+        top: 0;
+        right: 0;
+    }
+
+    .two-block-div {
+        width: 80vw !important;
+    }
+
+    .three-block {
+        height: auto;
+    }
+
+    .three-block-div {
+        max-width: 100%;
+    }
+
+    .three-block-head {
+        width: 80vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .three-block-head .three-block-head-cen {
+        width: 100%;
+    }
+
+    .three-block-head .three-block-head-cen .three-block-h2 {
+        font-size: 34px;
+        line-height: 42px;
+        margin: 2em 0;
+    }
+
+    .three-block-head .three-block-head-cen .three-block-h2 .three-block-p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    body.is-open {
+        overflow: hidden;
+    }
+
+    .three-block-skills-div {
+        flex-direction: column;
+    }
+
+    .skills-ul {
+        width: 70%;
+    }
+
+    .skills-ul li {
+        width: 15%;
+    }
+
+    .four-block-background {
+        height: 150vh;
+    }
+
+    .four-block {
+        width: 80%;
+    }
+
+    .four-block-fl {
+        width: 100%;
+    }
+
+    .five-block .button-a {
+        width: 100%;
+        line-height: 2.5em;
+    }
+
+    .five-block-ul {
+        width: 80%;
+    }
+
+    .five-block-ul li {
+        width: 40%;
+    }
+
+    .five-block-ul li a img {
+        width: 50%;
+    }
+
+    header.is-open .header-div {
+        max-width: 100vw;
+        position: fixed;
+        z-index: 3;
+        transform: translateX(0%);
+    }
+
+    .infor.is-open .div-infor-language {
+        display: block !important;
+        z-index: 4;
+        position: fixed;
+        transform: translateX(0%) !important;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+    font-family: "Gilroy-Medium", sans-serif;
+}
+
+.content {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    font-family: "Gilroy-Medium", sans-serif;
+}

@@ -1,0 +1,129 @@
+@import '_extensions';
+
+.burger {
+  display: none;
+}
+
+.one-block {
+  width: 100%;
+  height: 100vh;
+}
+
+.header-div {
+  width: 100%;
+  display: inline-block;
+
+  hr {
+    @extend %head-property;
+  }
+
+  margin:0;
+  padding: 0;
+}
+
+.head-cen {
+  height: 10vh;
+}
+
+.header-ul {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    flex: 1;
+    margin: auto 0;
+
+    a {
+      text-decoration: none;
+      line-height: 22px;
+	    color: #828282;
+      font-weight: bold;
+      font-size: 2.2vw!important;
+    }
+
+    a:hover {
+      color: #000;
+    }
+  }
+}
+
+.infor {
+  display: flex;
+  margin-bottom: 3em;
+  height: 18vh;
+
+  * {
+    flex: 1;
+  }
+
+  .div-infor-name {
+    display: grid;
+    align-items: end;
+
+    .name {
+      text-align: left;
+      font-size: 6vw;
+      line-height: 59px;
+      margin: 0;
+      bottom: 3em;
+    }
+  }
+
+  .div-infor-old {
+    display: grid;
+    align-items: end;
+
+    .old {
+      @extend %content-font;
+      text-align: left;
+      padding-left: 30%;
+      margin: 0;
+    }
+  }
+
+  .div-infor-language {
+    display: grid;
+    align-items: end;
+    transition: 0.5s!important;
+    .language {
+      @extend %head-property;
+      writing-mode: vertical-lr;
+      transform: scale(-1);
+      margin: 0;
+      position: relative;
+
+      a {
+        @extend %head-property;
+        text-decoration: none;
+        span {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+.img-div {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58vh;
+
+  .img-img {
+    flex-shrink: 0;
+    background: url("../images/ken.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+}

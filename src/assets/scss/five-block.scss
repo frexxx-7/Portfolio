@@ -1,0 +1,79 @@
+@import './extensions';
+
+.five-block {
+  display: table;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-content {
+    .button-a {
+      vertical-align: middle;
+      background: #000;
+      border: none;
+      color: #fff;
+      @extend %content-font;
+      border-radius: 2.5em;
+      width: 10em;
+      height: 2.5em;
+      display: inline-block;
+      text-decoration: none;
+      line-height: 2.5em!important;
+    }
+  }
+}
+
+.five-block-head {
+  box-sizing: border-box;
+
+  .five-block-head-h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .five-block-head-p {
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+    padding: 2em 0;
+    margin: 0;
+  }
+}
+
+.five-block-ul-div {
+  display: flex;
+  justify-content: center;
+}
+
+.five-block-ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 7em;
+  margin-bottom: 4.5em;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  li {
+    display: inline-block;
+    width: 40%;
+    flex:1;
+    a {
+      img {
+        width: 30%;
+      }
+    }
+  }
+}
+
+.five-block-p {
+  @extend %head-property;
+}

@@ -1,0 +1,67 @@
+@import './extensions';
+
+.four-block-background{
+	background: #F6F6F6;
+	width: 100%;
+	position:relative;
+	text-align: center;
+	display: table;
+}
+.four-block{
+	height: 100%;
+	display: inline-block;
+	width: 70%;
+	box-sizing:border-box;
+  margin: 3em 0;
+	@extend %content-font;
+	.four-block-fl{
+		display: flex;;
+		flex-direction: column;
+		box-sizing:border-box;
+		align-self: stretch;
+		height: 100%;
+		.four-block-h2-div{
+			flex:1;
+      margin: 1em 0;
+			.four-block-h2{
+				position: relative;           
+				top: 50%;                      
+				transform: translate(0, -50%);
+				box-sizing:border-box;
+				padding: 0;
+				margin: 0;
+				font-size: 34px;
+				line-height: 42px;
+			}
+		}
+		.work{
+			box-sizing:border-box;
+			flex-direction: column;
+			flex:5;
+			display: flex;
+			div{
+				display: flex;
+				flex-direction: column;
+				align-content: stretch;
+				align-items: stretch;
+				flex:1;
+				img{
+					width: 100%;
+					flex:1;
+				}
+				a{
+					color:#000;
+					flex:1
+				}
+			}
+		}
+	}
+}
+.four-block-a{
+	padding:3em 0;
+	box-sizing:border-box;
+	@extend %content-font;
+	a{
+		box-sizing:border-box;
+	}
+}

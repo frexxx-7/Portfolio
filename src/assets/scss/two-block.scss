@@ -1,0 +1,41 @@
+@import '_extensions';
+
+.two-block-background{
+	background: #F6F6F6;
+	width: 100%;
+	position:relative;
+}
+.two-block{
+  display: table;
+  width: 100%;
+	.two-block-div{
+		width: 40%;
+		display: inline-block;
+		height: 100%;	
+		.two-block-div-fl{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			align-self: center;
+			height: 100%;
+      margin: 2em 0;
+			.two-block-div-h2{
+				.two-block-h2{
+					font-family: 'Gilroy-Bold',sans-serif;
+					font-size: 34px;
+					line-height: 42px;
+				}
+			}
+			.two-block-div-p{
+				p{
+					@extend %head-property;
+					color: #000;
+				}
+				p:not(:first-child){
+					padding-top: 2em;
+				}
+			}
+		}
+	}
+}

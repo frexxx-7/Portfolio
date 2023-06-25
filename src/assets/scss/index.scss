@@ -1,0 +1,20 @@
+@import './one-block';
+@import './two-block';
+@import './three-block';
+@import './four-block';
+@import './five-block';
+@import './adaptiv';
+
+body{
+	margin: 0;
+	padding:0;
+	background-color:#fff;
+	text-align: center;
+	font-family: 'Gilroy-Medium',sans-serif;
+}
+.content{
+	width: 70%;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Gilroy-Medium',sans-serif;
+}
